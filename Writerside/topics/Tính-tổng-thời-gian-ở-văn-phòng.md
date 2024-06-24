@@ -16,7 +16,7 @@ Chức năng tính tổng thời gian ở văn phòng của **Computer Vision** 
    - Admin có thể thiết lập các khoảng thời gian nghỉ trong ngày.
    - Ví dụ: Thời gian nghỉ trưa từ 12:00 trưa đến 1:00 chiều.
 
-## Quy Trình Tính Thời Gian
+### Quy Trình Tính Thời Gian
 
 1. **Check-In và Check-Out Liên Tục**:
    - Nhân viên có thể check-in và check-out nhiều lần trong ngày.
@@ -35,7 +35,7 @@ Chức năng tính tổng thời gian ở văn phòng của **Computer Vision** 
    - Thời gian nằm trong khoảng nghỉ do admin cấu hình sẽ không được tính vào tổng thời gian làm việc.
    - Ví dụ: Thời gian từ 12:00 trưa đến 1:00 chiều (giờ nghỉ trưa) sẽ không được tính.
 
-## Sơ Đồ Quy Trình Tính Thời Gian 
+### Sơ Đồ Quy Trình Tính Thời Gian 
 
 ```mermaid
 graph TD;
@@ -51,7 +51,7 @@ graph TD;
     H --> I[Tính Tổng Thời Gian]
    ```
     
-## Ví Dụ Minh Họa
+### Ví Dụ Minh Họa
 
 ### Cấu Hình Của Admin
 - **Giờ làm việc hành chánh**: 8:00 sáng - 5:00 chiều
@@ -65,15 +65,15 @@ graph TD;
 - **Check-out**: 11:55 sáng
 - **Check-out**: 12:00 trưa
 
-#### Tính Toán Thời Gian {id="t-nh-to-n-th-i-gian_1"}
+#### Tính Toán Thời Gian
 - **Cặp 1**: 8:00 sáng - 11:55 sáng (3 giờ 55 phút)
 
-#### Tổng Thời Gian Làm Việc {id="t-ng-th-i-gian-l-m-vi-c_1"}
+#### Tổng Thời Gian Làm Việc
 - **Tổng thời gian**: 3 giờ 55 phút
 
 ### Ví Dụ 2: Check-In/Check-Out Trong Thời Gian Nghỉ
 
-#### Hoạt Động Check-In/Check-Out Trong Ngày {id="ho-t-ng-check-in-check-out-trong-ng-y_2"}
+#### Hoạt Động Check-In/Check-Out Trong Ngày
 - **Check-in**: 8:00 sáng
 - **Check-out**: 11:55 sáng
 - **Check-in**: 12:05 trưa
@@ -81,11 +81,11 @@ graph TD;
 - **Check-in**: 1:05 chiều
 - **Check-out**: 5:00 chiều
 
-#### Tính Toán Thời Gian {id="t-nh-to-n-th-i-gian_2"}
+#### Tính Toán Thời Gian
 - **Cặp 1**: 8:00 sáng - 11:55 sáng (3 giờ 55 phút)
 - **Cặp 2**: 1:05 chiều - 5:00 chiều (3 giờ 55 phút)
 
-#### Tổng Thời Gian Làm Việc {id="t-ng-th-i-gian-l-m-vi-c_2"}
+#### Tổng Thời Gian Làm Việc
 - **Tổng thời gian**: 3 giờ 55 phút + 3 giờ 55 phút = 7 giờ 50 phút
 
 ### Ví Dụ 3: Check-In/Check-Out Trong Và Ngoài Thời Gian Nghỉ
@@ -109,4 +109,4 @@ Thời gian làm việc của nhân viên trong ngày sẽ được tính là 7 
 
 ---
 
-*Computer Vision - Giải Pháp Chấm Công Và Quản Lý Thời Gian Hiệu Quả Với AI Và Thị Giác Máy Tính Tích Hợp VCloud AI*
+*CheckInOut Vision - Giải Pháp Chấm Công Và Quản Lý Thời Gian Hiệu Quả Với AI Và Thị Giác Máy Tính Tích Hợp VCloud AI*
