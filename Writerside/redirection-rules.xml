@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="26a63066">
+        <description>Created after removal of "Tính tổng thời gian ở văn phòng" from Instance Name</description>
+        <accepts>Tính-tổng-thời-gian-ở-văn-phòng.html</accepts>
+    </rule>
+    <rule id="7e9db5d1">
+        <description>Created after removal of "Tính tổng thời gian ở văn phòng" from Instance Name</description>
+        <accepts>Tính-tổng-thời-gian-ở-văn-phòng.html</accepts>
+    </rule>
+</rules>
